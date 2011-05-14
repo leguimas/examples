@@ -6,8 +6,8 @@ import br.com.mundoJ.pageObject.page.PaginaBase;
 
 public class PaginaDeBusca extends PaginaBase {
 
-	private static final String INPUT_BUSCA = "input[name=q]";
-	private static final String BOTAO_DE_BUSCA = "input[name=btnG]";
+	private static final String INPUT_BUSCA = "input#sb_form_q";
+	private static final String BOTAO_DE_BUSCA = "input#sb_form_go";
 
 	public PaginaDeBusca(WebDriver driver) {
 		super(driver);
@@ -27,7 +27,7 @@ public class PaginaDeBusca extends PaginaBase {
 
 	@Override
 	public String getURL() {
-		return "http://www.google.com.br";
+		return "http://www.bing.com.br";
 	}
 
 }

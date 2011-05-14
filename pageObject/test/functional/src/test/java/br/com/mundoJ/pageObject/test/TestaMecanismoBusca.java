@@ -26,17 +26,17 @@ public class TestaMecanismoBusca {
 	}
 
 	@Test
-	public void testaBuscaMundoJ() {
+	public void testaBuscaSeleniumTest() {
 		dadoQueUsuarioAcessaMecanismoDeBusca();
-		quandoUsuarioProcuraPor("mundoJ");
-		entaoMecanismoDeBuscaEncontraSite("www.mundojava.com.br");
+		quandoUsuarioProcuraPor("selenium test");
+		entaoMecanismoDeBuscaEncontraSite("seleniumhq.org");
 	}
 
 	@Test
-	public void testaBuscaRevistaJava() {
+	public void testaBuscaPageObjectPattern() {
 		dadoQueUsuarioAcessaMecanismoDeBusca();
-		quandoUsuarioProcuraPor("revista mundo java");
-		entaoMecanismoDeBuscaEncontraSite("www.mundojava.com.br");
+		quandoUsuarioProcuraPor("pageobject pattern");
+		entaoMecanismoDeBuscaEncontraSite("code.google.com/p/selenium/wiki/PageObjects");
 	}
 
 	private void dadoQueUsuarioAcessaMecanismoDeBusca() {
